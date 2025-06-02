@@ -4,6 +4,29 @@ from textblob import TextBlob
 import plotly.express as px
 from collections import Counter
 from datetime import date
+import nltk
+from textblob import TextBlob
+
+# Automatically download required NLTK corpora (used by TextBlob)
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+try:
+    nltk.data.find('taggers/averaged_perceptron_tagger')
+except LookupError:
+    nltk.download('averaged_perceptron_tagger')
+
+try:
+    nltk.data.find('corpora/brown')
+except LookupError:
+    nltk.download('brown')
+
+try:
+    nltk.data.find('corpora/wordnet')
+except LookupError:
+    nltk.download('wordnet')
 
 # --- Streamlit Setup ---
 st.set_page_config(page_title="Fertility Clinic Sentiment Dashboard", layout="wide")
