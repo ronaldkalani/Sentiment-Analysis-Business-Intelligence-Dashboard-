@@ -4,18 +4,6 @@ from textblob import TextBlob
 import plotly.express as px
 from collections import Counter
 from datetime import date
-import nltk
-
-# --- Ensure NLTK corpora are available ---
-required_corpora = [
-    'punkt', 'averaged_perceptron_tagger', 'brown', 'wordnet'
-]
-
-for corpus in required_corpora:
-    try:
-        nltk.data.find(f'tokenizers/{corpus}' if corpus == 'punkt' else f'corpora/{corpus}')
-    except LookupError:
-        nltk.download(corpus)
 
 # --- Streamlit Setup ---
 st.set_page_config(page_title="Fertility Clinic Sentiment Dashboard", layout="wide")
@@ -23,7 +11,7 @@ st.title("🧬 Fertility Clinic Sentiment Analysis Dashboard")
 st.markdown("Compare sentiment across 10 NewLife Fertility locations and top-rated Ontario fertility clinics based on review summaries.")
 today = date.today().strftime("%B %d, %Y")
 
-# --- Sample Reviews ---
+# --- Sample Reviews (Expanded with Trusted Sources)
 clinic_reviews = {
     "NewLife - Mississauga": [
         "Great service", "Very helpful staff", "Wait times were long", "Clinic was overcrowded", "Doctors were kind",
@@ -122,11 +110,11 @@ for clinic, reviews in clinic_reviews.items():
 df_sentiment = pd.DataFrame(results).sort_values(by="Avg Sentiment Score", ascending=False)
 
 # --- Display Table ---
-st.subheader("Sentiment Score Table")
+st.subheader("📋 Sentiment Score Table")
 st.dataframe(df_sentiment, use_container_width=True)
 
 # --- Bar Chart ---
-st.subheader("Sentiment Comparison Chart")
+st.subheader("📊 Sentiment Comparison Chart")
 fig = px.bar(
     df_sentiment,
     x="Clinic",
@@ -150,7 +138,7 @@ for clinic in df_sentiment["Clinic"]:
     neg = negative_features.get(clinic, [])
     st.markdown(f"**{clinic}**: Common concerns include *{', '.join(neg) if neg else 'no significant complaints detected'}*.")
 
-# --- Review Sources ---
+# --- Top 20 Review Sources ---
 st.subheader("🔗 Top 20 Review Sources Used")
 review_sites = [
     "1. [RateMDs](https://www.ratemds.com/)",
@@ -177,6 +165,7 @@ review_sites = [
 
 for site in review_sites:
     st.markdown(site)
+
 
 
 
