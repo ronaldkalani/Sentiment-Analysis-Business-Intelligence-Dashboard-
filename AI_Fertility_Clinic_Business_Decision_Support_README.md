@@ -22,9 +22,9 @@ The table below shows **average sentiment scores** (scale: -1 to +1) and **revie
 
 ---
 
-### 🧠 Strategic Business Implications for NewLife Fertility Clinics
+### Strategic Business Implications for NewLife Fertility Clinics
 
-#### 1. 📍 Location Benchmarking & Prioritization
+#### 1. Location Benchmarking & Prioritization
 - **Top-performing NewLife locations** (Hamilton, Richmond Hill, Oakville) exhibit strong sentiment associated with keywords like **"supportive," "excellent," and "great care."**
 - **Lower-performing sites** (Toronto Downtown, Milton, Scarborough) show sentiment gaps due to **reception issues, communication delays, or perceived inefficiencies**.
 
@@ -33,7 +33,7 @@ Conduct **service audits**, **retrain front-line staff**, and replicate high-per
 
 ---
 
-#### 2. ⚖️ Resource Allocation
+#### 2.  Resource Allocation
 - Clinics like **Brampton, Burlington, and Toronto Downtown** receive **high traffic but lower sentiment**, indicating **potential patient dissatisfaction**.
 
 **✅ Action:**  
@@ -41,7 +41,7 @@ Reassign **senior staff**, enhance **clinic support capacity**, and implement **
 
 ---
 
-#### 3. 🛠️ Service Design Optimization
+#### 3.  Service Design Optimization
 - **Positive Themes:** “Clean environment,” “kind staff,” “modern clinic,” “great IVF success.”  
 - **Negative Themes:** “Long wait times,” “billing issues,” “rude receptionist,” “unclear communication.”
 
@@ -51,7 +51,7 @@ Reassign **senior staff**, enhance **clinic support capacity**, and implement **
 
 ---
 
-#### 4. 📣 Marketing & Reputation Management
+#### 4. Marketing & Reputation Management
 - Promote high-rated clinics like **Hamilton, Richmond Hill, Mississauga** in digital campaigns.
 - Launch **reputation recovery** programs for **Toronto Downtown**, including **responding to reviews**, showcasing new initiatives, and **targeted ads**.
 
@@ -60,7 +60,7 @@ Use sentiment keywords like **“modern IVF care,” “supportive staff,” “
 
 ---
 
-#### 5. 📈 Predictive Analytics for No-Show Risk
+#### 5. Predictive Analytics for No-Show Risk
 Combine **sentiment score**, **satisfaction rating**, and **location-level performance** to predict **no-show likelihood**.
 
 **✅ Action:**  
@@ -68,7 +68,7 @@ Identify patients likely to miss appointments and provide **reminder calls, tele
 
 ---
 
-#### 6. 📊 Executive Reporting via Tableau / Streamlit
+#### 6. Executive Reporting via Tableau / Streamlit
 These insights are fully **automated into your BI dashboards**, allowing leadership to:
 
 - Monitor **KPIs in real time**
