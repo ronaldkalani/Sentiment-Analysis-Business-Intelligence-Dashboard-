@@ -62,21 +62,25 @@ Simulated reviews (7–10 per clinic) sourced from RateMDs, Google Reviews, Yelp
 1. Location Benchmarking & Prioritization
 Top-performing NewLife locations (Hamilton, Richmond Hill, Oakville) exhibit strong sentiment associated with keywords like "supportive," "excellent," and "great care."
 Lower-performing sites (Toronto Downtown, Milton, Scarborough) show sentiment gaps due to reception issues, communication delays, or perceived inefficiencies.
+
 ✅ Action: Conduct service audits, retrain front-line staff, and replicate high-performing clinic strategies at underperforming branches.
 
 2. Resource Allocation
 Clinics like Brampton, Burlington, and Toronto Downtown receive high traffic but lower sentiment, indicating potential patient dissatisfaction.
+
 ✅ Action: Reassign senior staff, enhance clinic support capacity, and implement automated intake tools (chatbots, self-check-in systems).
 
 3. Service Design Optimization
 Positive Themes: “Clean environment,” “kind staff,” “modern clinic,” “great IVF success.”
 Negative Themes: “Long wait times,” “billing issues,” “rude receptionist,” “unclear communication.”
+
 ✅ Action: Deploy AI-powered scheduling tools and SMS reminders to reduce wait times.
           - Provide clarified billing guides and multilingual support.
 
 4. Marketing & Reputation Management
 Promote high-rated clinics like Hamilton, Richmond Hill, Mississauga in digital campaigns.
 Launch reputation recovery programs for Toronto Downtown, including responding to reviews, showcasing new initiatives, and targeted ads.
+
 ✅ Action: Use sentiment keywords like “modern IVF care,” “supportive staff,” “great experience” in your clinic website, Google Business posts, and paid ads.
 
 5. Predictive Analytics for No-Show Risk
