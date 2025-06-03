@@ -75,6 +75,6 @@ Future potential includes:
 - Auto-generated satisfaction diagnostics
 - Ethical AI feedback systems
 
-# Developer:
-Ronald Kalani, Master of Science in Technology Management (MSc), Graduate Certificates (GC) in Artificial Intelligence, Regulatory Affairs, and Bioinformatics
+# Developer: Ronald Kalani:
+                          Master of Science in Technology Management (MSc), Graduate Certificates (GC) in Artificial Intelligence, Regulatory Affairs, and Bioinformatics
 
