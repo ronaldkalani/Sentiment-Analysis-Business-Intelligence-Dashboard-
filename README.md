@@ -102,5 +102,5 @@ Future potential includes:
 - Ethical AI feedback systems
 
 # Developer: 
-           # Ronald Kalani, Master of Science in Technology Management (MSc), Graduate Certificates (GC) in Artificial Intelligence, Regulatory Affairs, and Bioinformatics
+           # Ronald Kalani, MSc Technology Management, Graduate Certificates (GC) in Artificial Intelligence, Regulatory Affairs, and Bioinformatics
 
