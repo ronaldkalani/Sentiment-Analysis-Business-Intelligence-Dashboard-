@@ -1,67 +1,80 @@
+## AI/ML Project Title: Fertility Clinic Sentiment Intelligence Dashboard
 
-# Sentiment Analysis & Business Intelligence Dashboard
+# Goal:
+Transform qualitative patient reviews into structured sentiment analytics to support clinic optimization and strategic planning.
 
-This project provides a data-driven sentiment analysis dashboard using **Streamlit** and **TextBlob**, analyzing reviews of fertility clinics across Ontario. It supports both **competitive benchmarking** and **quality assurance** for clinic performance using patient review data.
+# Intended Audience:
+- Healthcare Executives & Clinic Managers
+- Data Scientists & Business Intelligence Analysts
+- Patient Experience & Marketing Teams
 
-## Features
+# Strategy & Pipeline Steps:
+1. Data Collection from 20+ review platforms
+2. NLP-based Sentiment Scoring using TextBlob
+3. Feature Extraction: Themes and Polarity
+4. Sentiment Aggregation per Clinic
+5. Dashboard Development in Streamlit
+6. Strategic Insights Generation
 
-- Sentiment scoring from real patient review summaries
-- Positive and negative phrase extraction for root cause analysis
-- Interactive bar charts and tables (Plotly, Streamlit)
-- Integrated top review platforms: RateMDs, Google, Yelp, etc.
-- Auto-updated sentiment trends and insights
+# Challenges:
+- Review subjectivity and tone variance
+- Small sample bias across locations
+- Real-time feedback integration
+- Linking sentiment to operational KPIs
 
-## Technologies Used
+# Problem Statement:
+Fertility clinics receive feedback across many online platforms, but they lack a unified sentiment analysis system. This project extracts actionable business insights from review text to inform service design, communication strategy, and patient experience optimization.
 
-- Python 3.10+
-- Streamlit
-- TextBlob (NLP)
-- Plotly (visualizations)
-- Pandas
+# Dataset:
+Simulated reviews (7–10 per clinic) sourced from RateMDs, Google Reviews, Yelp, and fertility forums.
 
-## 🗂Directory Structure
+# MACHINE LEARNING PREDICTION & OUTCOMES
+--------------------------------------
+- Avg. Sentiment Score per Clinic
+- Positive/Negative Theme Identification
+- Ranking by Sentiment
+- Strategic Flags: Underperforming Clinics
+- No-show Prediction Support
 
-```
-Sentiment-Analysis-BI-Dashboard/
-├── app.py                  # Main Streamlit app
-├── cleaned_appointment.csv # Optional dataset (if not private)
-├── reviews_sample.json     # Optional: preloaded JSON of reviews
-├── requirements.txt        # Required Python packages
-├── README.md               # Project description and instructions
-└── assets/                 # Optional: logos, screenshots
-```
+# Business Decision Support – Actionable Insights from Sentiment Analytics
+------------------------------------------------------------------------
 
-##  How to Run the App
+| Clinic                        | Avg. Sentiment | Reviews |
+|------------------------------|----------------|---------|
+| Pollin Fertility             | 0.38           | 9       |
+| NewLife - Hamilton           | 0.36           | 7       |
+| NewLife - Richmond Hill      | 0.34           | 9       |
+| Hannam Fertility Centre      | 0.32           | 7       |
+| Ottawa Fertility Centre      | 0.29           | 7       |
+| NewLife - Oakville           | 0.24           | 7       |
+| NewLife - Mississauga        | 0.23           | 10      |
+| NewLife - Concord            | 0.23           | 8       |
+| NewLife - Burlington         | 0.19           | 9       |
+| NewLife - Brampton           | 0.14           | 9       |
+| NewLife - Scarborough        | 0.13           | 7       |
+| NewLife - Milton             | 0.12           | 8       |
+| TRIO Fertility               | 0.03           | 9       |
+| NewLife - Toronto Downtown   | -0.20          | 7       |
 
-```bash
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/Sentiment-Analysis-BI-Dashboard.git
-cd Sentiment-Analysis-BI-Dashboard
+# Strategic Implications & Actions:
+1. Location Benchmarking: Audit low-scoring sites (e.g. Downtown) and replicate high-performers (Hamilton).
+2. Resource Allocation: Strengthen staffing at high-traffic/low-score sites (Brampton, Burlington).
+3. Communication Optimization: Introduce chatbots, billing guides, SMS scheduling tools.
+4. Marketing: Promote “supportive care” themes from high-rated clinics.
+5. Predictive Insights: Combine review sentiment + KPIs to reduce no-shows.
+6. Executive Dashboards: Monitor KPI trends with Tableau or Streamlit.
 
-# Install dependencies
-pip install -r requirements.txt
+# Trailer Documentation:
+- Libraries: Streamlit, Plotly, TextBlob, Pandas
+- Data Type: Simulated reviews (text)
+- Deployment: Streamlit Cloud or local
 
-# Run Streamlit app
-streamlit run app.py
-```
+# Conceptual Enhancement – AGI:
+Future potential includes:
+- EMR-integrated insights
+- Auto-generated satisfaction diagnostics
+- Ethical AI feedback systems
 
-## Data Sources
+# Developer:
+Ronald Kalani, Master of Science in Technology Management (MSc), Graduate Certificates (GC) in Artificial Intelligence, Regulatory Affairs, and Bioinformatics
 
-- Google Maps Reviews  
-- RateMDs  
-- Yelp Canada  
-- Birdeye  
-- FertilityMapper  
-- NewLife Fertility Testimonials  
-(And 15+ other trusted Canadian review sites)
-
-## Potential Users
-- Health Care Executives 
-- Business Analysts in Healthcare
-- Fertility Clinic Managers
-- Patient Experience Researchers
-- Competitive Intelligence Teams
-
-## License
-
-MIT License
